@@ -1,0 +1,34 @@
+1. 3, because prices.length is 3 ,after the for loop, print out the i which is 3.
+2. 150, because console.log(discountedPrice) will print out the last discountedPrice which is 150
+3. 150, basically same as 2, but rounded.
+4. [50,100,150], it will return all rounded final prices.
+5. ERROR, because i is not define outside of for loop.
+6. ERROR, because discountedPrice is not define outside of for loop.
+7. 150, it will return last rounded final prices.
+8. [50,100,150], same as 4.
+9. ERROR, same a 5.
+10. 3, because prices.length is 3.
+11. [50,100,150], push something into const discounted  didn't change its address
+12. A: student.name;
+    B: student["Grad Year"];
+    C: student.greeting();
+    D: student["Favorite Teacher"].name;
+    E: student.courseLoad[0];
+13. A: ‘3’ + 2 -> '32' '3' + 2, the number 2 will be converted to a string and concatenated to the string '3', resulting in the string '32'
+    B: ‘3’ - 2 -> 1  "-" operator is not defined for strings,  convert the string '3' to a number before performing the subtraction.
+    C: 3 + null -> 3  3 is first converted to the number 3, and the null value is converted to 0
+    D: ‘3’ + null -> "3null" same as A
+    E: true + 3 -> 4 true to a number(1) before performing the addition 3+1=4
+    F: false + null -> 0  when false is used in a numeric operation such as addition (+), it is automatically coerced into the number 0 and the null value is converted to 0
+    G: '3' + undefined -> "3undefine" same as A
+    F: '3' - undefined -> NaN "-" will attempt to convert the operands to numbers before performing the subtraction, If one of the operands cannot be converted to a number, it will be treated as NaN
+14. A: ‘2’ > 1 -> true js will convert the string to a number before performing the comparison.
+    B: ‘2’ < ‘12’ -> false 2>1 comparison is performed character by character based on their Unicode code points
+    C: 2 == ‘2’ -> true js will try to convert them to a common type before making the comparison.
+    D: 2 === ‘2’ -> false because they're not the same type
+    E: true == 2 -> false because js convert true to number "1" which not equal to 2
+    F: true === Boolean(2) -> true because both side are Boolean type
+15. == checks whether the values on both sides are equal
+    === checks whether they are not only equal, but also of the same type.
+17. [2,4,6], because in the for loop, we need to use the callback function double the elements every time to push into newArr.
+19. prints 1,4,3 then print 2 after 1s.

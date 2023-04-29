@@ -1,0 +1,6 @@
+1. values added: 20
+2. final result: 20
+3. values added:  20
+4. ERROR, because result is not define outside of if statment
+5. ERROR, because const var cannot be reassigned
+6. ERROR, same as 5
