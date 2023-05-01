@@ -20,7 +20,7 @@
     D: ‘3’ + null -> "3null" same as A
     E: true + 3 -> 4 true to a number(1) before performing the addition 3+1=4
     F: false + null -> 0  when false is used in a numeric operation such as addition (+), it is automatically coerced into the number 0 and the null value is converted to 0
-    G: '3' + undefined -> "3undefine" same as A
+    G: '3' + undefined -> "3undefined" same as A
     F: '3' - undefined -> NaN "-" will attempt to convert the operands to numbers before performing the subtraction, If one of the operands cannot be converted to a number, it will be treated as NaN
 14. A: ‘2’ > 1 -> true js will convert the string to a number before performing the comparison.
     B: ‘2’ < ‘12’ -> false 2>1 comparison is performed character by character based on their Unicode code points
